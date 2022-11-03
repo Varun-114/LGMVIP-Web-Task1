@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(200, 90, 56);
+    height:100vh;
+    font-family:'Times New Roman';
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(157, 153, 153);
+    width: 35%;
+    border-radius: 0px;  
+}
+
+.input{
+    width:60%;
+    height:15%;
+    background-color: rgba(228, 236, 237, 0.582);
+    color: rgb(153, 54, 54);
+    border:2px solid rgb(0, 0, 0);
+    margin-right:15px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight:bolder;
+}
+
+.add{
+    text-align: center;
+    background-color: rgba(246, 246, 246, 0.582);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    width:50px;
+    height:40px;
+    padding-top: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.del,.edit{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.582);
+    color: rgb(0, 0, 0);
+    min-width:30px;
+    height:30px;
+    padding:5px;
+    padding-left:4px;
+}
+
+.edit{
+    color:rgb(0, 0, 0);
+    margin-left:2px;
+}
+
+.clear{
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(231, 252, 253, 0.582);
+    color: rgb(0, 0, 0);
+    min-width:60px;
+    height:30px;
+    margin: 10px 0;
+}
+
+.content{
+    margin:auto;
+    margin-right: 0;
+    width:50%;
+    text-align: center;
+    border:2px solid #000;
+    background-color:rgb(241, 173, 144);
+    font-size: large;
+}
+
+.box{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.actions{
+    margin-right:auto;
+    display: flex;
+}
+
+@media only screen and (max-width:580px){
+    .container{
+        width:90%;
+    }
+}
+
+@media only screen and (min-width:426px){
+    .container{
+        transform: scale(1.1);
+    }
+}
